@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class MovieCatalogServiceApplication {
 	
+	//testing git merge
 	@Bean
 	@LoadBalanced
 	public RestTemplate getRestTemplate() {
